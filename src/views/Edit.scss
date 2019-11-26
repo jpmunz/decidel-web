@@ -1,0 +1,37 @@
+@import "mixins";
+
+.Edit {
+  h1 {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .History {
+    padding-top: 30px;
+  }
+
+  .spinner {
+    text-align: center;
+  }
+
+  .final-decision-header {
+    text-align: center;
+    margin-bottom: 20px;
+
+    .final-decision-preamble {
+      font-size: 3em;
+    }
+
+    .final-decision-title {
+      position: relative;
+      top: -20px;
+      font-weight: bold;
+      font-size: 3.5em;
+    }
+  }
+
+  .decidel-not-found {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}

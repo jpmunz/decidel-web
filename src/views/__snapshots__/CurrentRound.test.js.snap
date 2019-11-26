@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Another user's turn 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <span>
+      It's 
+    </span>
+    <span
+      class="user-name"
+    >
+      Bob
+    </span>
+    <span>
+      's turn - wait for them to cross something off.
+    </span>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      That's Me!
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Current round failed to persist 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <div
+      class="fade alert alert-warning show"
+      role="alert"
+    >
+      There was a problem saving your changes. Please try again later.
+    </div>
+    <span>
+      It's your turn - narrow down that decision!
+    </span>
+    <button
+      class="btn btn-primary"
+      title=""
+      type="button"
+    >
+      I'm Done
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Current round persisting in progress 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <span />
+    <button
+      class="btn btn-primary"
+      title=""
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+        class="spinner-border spinner-border-sm"
+        role="status"
+      />
+      <span
+        class="sr-only"
+      >
+        Loading...
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Current user's turn but current round is not persistable 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <span>
+      It's your turn - narrow down that decision!
+    </span>
+    <button
+      class="btn btn-primary"
+      disabled=""
+      title="You need to do at least one thing on your turn"
+      type="button"
+    >
+      I'm Done
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Final decision has been made 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <span>
+      You decided on The Rock
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Trigger persisting the current round 1`] = `
+<DocumentFragment>
+  <div
+    class="CurrentRound"
+  >
+    <span>
+      It's your turn - narrow down that decision!
+    </span>
+    <button
+      class="btn btn-primary"
+      title=""
+      type="button"
+    >
+      I'm Done
+    </button>
+  </div>
+</DocumentFragment>
+`;

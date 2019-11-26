@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Disabling input 1`] = `
+<DocumentFragment>
+  <ul
+    class="ListInput"
+  >
+    <li>
+      <div
+        class="input-group"
+      >
+        <input
+          class="form-control"
+          data-testid="list-input-option"
+          disabled=""
+          type="text"
+          value=""
+        />
+        <div
+          class="remove-button-container input-group-append"
+        >
+          <button
+            class="ImageButton btn btn-primary"
+            disabled=""
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="remove"
+              src="remove.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </li>
+    <li>
+      <input
+        alt="add-another"
+        class="add-another form-control"
+        disabled=""
+        placeholder="add new"
+        type="text"
+        value=""
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Setting more initial options 1`] = `
+<DocumentFragment>
+  <ul
+    class="ListInput"
+  >
+    <li>
+      <div
+        class="input-group"
+      >
+        <input
+          class="form-control"
+          data-testid="list-input-option"
+          type="text"
+          value=""
+        />
+        <div
+          class="remove-button-container input-group-append"
+        >
+          <button
+            class="ImageButton btn btn-primary"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="remove"
+              src="remove.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        class="input-group"
+      >
+        <input
+          class="form-control"
+          data-testid="list-input-option"
+          type="text"
+          value=""
+        />
+        <div
+          class="remove-button-container input-group-append"
+        >
+          <button
+            class="ImageButton btn btn-primary"
+            tabindex="-1"
+            type="button"
+          >
+            <img
+              alt="remove"
+              src="remove.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </li>
+    <li>
+      <input
+        alt="add-another"
+        class="add-another form-control"
+        placeholder="add new"
+        type="text"
+        value=""
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;

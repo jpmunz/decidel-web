@@ -1,0 +1,11 @@
+@import "mixins";
+
+.ListInput {
+  li:not(:first-child) {
+    padding-top: 20px;
+  }
+
+  .remove-button-container {
+    padding: 0 10px;
+  }
+}

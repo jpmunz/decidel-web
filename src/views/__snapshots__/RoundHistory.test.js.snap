@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic rendering 1`] = `
+<DocumentFragment>
+  <div
+    class="RoundHistory"
+  >
+    <ul>
+      <li
+        class="round-item"
+      >
+        <img
+          alt=""
+          src="wrench.svg"
+        />
+         Bob threw a wrench by adding option1
+      </li>
+      <li
+        class="round-item"
+      >
+        <img
+          alt=""
+          src="remove.svg"
+        />
+         Bob crossed off option2
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

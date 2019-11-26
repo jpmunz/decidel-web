@@ -1,0 +1,67 @@
+@import "mixins";
+
+.Home {
+  text-align: center;
+
+  .decide-btn {
+    margin: 20px 0;
+    @include box-shadow(5px, 5px, 10px, rgba(0, 0, 0, 0.2));
+  }
+
+  .how-it-works-step {
+    font-size: 2em;
+
+    &:first-child {
+      margin-top: 30px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+
+    div {
+      margin-bottom: 10px;
+    }
+  }
+
+  .how-it-works-step:not(:first-child) {
+    img {
+      border: 1px solid #ddd;
+      @include rounded();
+      @include box-shadow(5px, 5px, 10px, rgba(0, 0, 0, 0.2));
+      padding: 5px;
+    }
+  }
+
+  .how-it-works-step:nth-child(1) img {
+    width: 500px;
+  }
+
+  .how-it-works-step:nth-child(2) img {
+    width: 700px;
+  }
+
+  .how-it-works-step:nth-child(3) img {
+    width: 600px;
+  }
+
+  .cartoon-section {
+    margin: 40px 0;
+
+    .cartoon {
+      width: 900px;
+      @include box-shadow(0, 1px, 3px, rgba(0, 0, 0, 0.2));
+      @include rounded();
+    }
+
+    .image-attribution {
+      margin-top: 5px;
+      font-size: 0.8em;
+    }
+  }
+
+  footer {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}

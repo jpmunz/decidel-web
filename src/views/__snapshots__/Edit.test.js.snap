@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Decision finalized 1`] = `
+<DocumentFragment>
+  <div
+    class="Edit container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="final-decision-header"
+        >
+          <div
+            class="final-decision-preamble"
+          >
+            You decided on
+          </div>
+          <div
+            class="final-decision-title"
+          >
+            The Rock!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="col-8 col"
+      >
+        <div>
+          Mocked DecisionOptions
+        </div>
+      </div>
+    </div>
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="col-8 col"
+      >
+        <div>
+          Mocked History
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Fetch failed 1`] = `
+<DocumentFragment>
+  <div
+    class="Edit container"
+  >
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="decidel-not-found col"
+      >
+        <div>
+          We couldn't find a Decidel with that id.
+        </div>
+        <div>
+          Are you sure you entered the URL correctly?
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Fetching in progress 1`] = `
+<DocumentFragment>
+  <div
+    class="Loading"
+  >
+    <div
+      class="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        class="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Initial mount 1`] = `
+<DocumentFragment>
+  <div
+    class="Loading"
+  >
+    <div
+      class="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        class="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

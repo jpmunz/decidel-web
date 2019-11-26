@@ -1,0 +1,14 @@
+@import "mixins";
+
+.RoundHistory {
+  .round-item {
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
+
+    img {
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
+}

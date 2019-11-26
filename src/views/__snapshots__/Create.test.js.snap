@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blank create form 1`] = `
+<DocumentFragment>
+  <form
+    class="Create"
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="name-input"
+      >
+        What's your name?
+      </label>
+      <input
+        class="form-control"
+        id="name-input"
+        placeholder="The Decider"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="title-input"
+      >
+        What are you trying to decide?
+      </label>
+      <input
+        class="form-control"
+        id="title-input"
+        placeholder="What movie to watch"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        What options do you have?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            placeholder="Add another option"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        Who else is deciding?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            placeholder="Add another decider"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="footer"
+    >
+      <button
+        class="create-button btn btn-primary"
+        disabled=""
+        type="submit"
+      >
+        Create
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Create form submission error 1`] = `
+<DocumentFragment>
+  <form
+    class="Create"
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="name-input"
+      >
+        What's your name?
+      </label>
+      <input
+        class="form-control"
+        id="name-input"
+        placeholder="The Decider"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="title-input"
+      >
+        What are you trying to decide?
+      </label>
+      <input
+        class="form-control"
+        id="title-input"
+        placeholder="What movie to watch"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        What options do you have?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            placeholder="Add another option"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        Who else is deciding?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            placeholder="Add another decider"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="footer"
+    >
+      <div
+        class="fade alert alert-warning show"
+        role="alert"
+      >
+        There was a problem creating your Decidel. Please try again later.
+      </div>
+      <button
+        class="create-button btn btn-primary"
+        disabled=""
+        type="submit"
+      >
+        Create
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`Create form submission success 1`] = `<DocumentFragment />`;
+
+exports[`Create form submitting 1`] = `
+<DocumentFragment>
+  <form
+    class="Create"
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="name-input"
+      >
+        What's your name?
+      </label>
+      <input
+        class="form-control"
+        disabled=""
+        id="name-input"
+        placeholder="The Decider"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+        for="title-input"
+      >
+        What are you trying to decide?
+      </label>
+      <input
+        class="form-control"
+        disabled=""
+        id="title-input"
+        placeholder="What movie to watch"
+        type="text"
+      />
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        What options do you have?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              disabled=""
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              disabled=""
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            disabled=""
+            placeholder="Add another option"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="form-group"
+    >
+      <label
+        class="form-label"
+      >
+        Who else is deciding?
+      </label>
+      <ul
+        class="ListInput"
+      >
+        <li>
+          <div
+            class="input-group"
+          >
+            <input
+              class="form-control"
+              data-testid="list-input-option"
+              disabled=""
+              type="text"
+              value=""
+            />
+            <div
+              class="remove-button-container input-group-append"
+            >
+              <button
+                class="ImageButton btn btn-primary"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <img
+                  alt="remove"
+                  src="remove.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input
+            alt="add-another"
+            class="add-another form-control"
+            disabled=""
+            placeholder="Add another decider"
+            type="text"
+            value=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div
+      class="footer"
+    >
+      <button
+        class="create-button btn btn-primary"
+        disabled=""
+        type="submit"
+      >
+        <span
+          aria-hidden="true"
+          class="spinner-border spinner-border-sm"
+          role="status"
+        />
+        <span
+          class="sr-only"
+        >
+          Loading...
+        </span>
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;

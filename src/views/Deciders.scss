@@ -1,0 +1,43 @@
+@import "mixins";
+
+.Deciders {
+  .deciders-list-container {
+    width: 200px;
+    @include rounded();
+    @include box-shadow(10px, 10px, 20px, rgba(0, 0, 0, 0.2));
+  }
+
+  ul {
+    width: 60%;
+    margin: 0 auto;
+
+    span {
+      cursor: default;
+      @include ellipsis();
+    }
+  }
+
+  .turn-indicator {
+    width: 20px;
+    vertical-align: top;
+  }
+
+  .current-user {
+    font-weight: bold;
+  }
+
+  .other-user,
+  .current-user {
+    &:not(.current-turn) {
+      margin-left: 25px;
+    }
+  }
+
+  .current-turn {
+    margin-left: 5px;
+  }
+
+  .deciders-share {
+    margin-top: 30px;
+  }
+}

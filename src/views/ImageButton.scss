@@ -1,0 +1,25 @@
+.ImageButton {
+  padding: 0;
+  width: 20px;
+  opacity: 0.2;
+
+  &:disabled {
+    opacity: 0.1;
+  }
+
+  &,
+  &:focus,
+  &:disabled,
+  &:hover,
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled):active:focus {
+    color: unset;
+    border: none;
+    background-color: unset;
+    box-shadow: none;
+  }
+
+  &:hover:not(:disabled) {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions" suppressed-tasks="SCSS">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="-b html ./docs ./docs/_build/html" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="*" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Build Docs" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$PROJECT_DIR$/../from-scratch-development/venv/bin/sphinx-build" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$PROJECT_DIR$/../from-scratch-development" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>

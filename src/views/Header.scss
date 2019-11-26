@@ -1,0 +1,22 @@
+@import "variables";
+
+.Header {
+  background-color: $primary;
+  border-bottom: 1px solid $accent;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+
+  .created-by {
+    float: right;
+    color: $accent;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    height: 40px;
+    margin-top: 5px;
+    width: 200px;
+  }
+}

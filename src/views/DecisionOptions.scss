@@ -1,0 +1,49 @@
+@import "mixins";
+@import "variables";
+
+.DecisionOptions {
+  @include rounded();
+  @include box-shadow(10px, 10px, 20px, rgba(0, 0, 0, 0.2));
+
+  ul {
+    padding: 5px 0;
+
+    li {
+      padding: 5px 10px;
+      margin: 10px 5px;
+      border: 1px solid #ddd;
+      @include rounded();
+
+      &.final-decision {
+        border: 3px solid $black;
+
+        .option-title {
+          font-weight: bold;
+        }
+      }
+
+      &.removed .option-title {
+        text-decoration: line-through;
+      }
+
+      .ImageButton {
+        float: right;
+      }
+    }
+  }
+
+  .add-option {
+    margin: 0 5px;
+    padding: 0 10px 20px;
+    width: 100%;
+
+    .form-control {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-radius: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+  }
+}

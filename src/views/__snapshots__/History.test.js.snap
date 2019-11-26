@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current round history only 1`] = `
+<DocumentFragment>
+  <div
+    class="History"
+  >
+    <h4
+      class="header"
+    >
+      How we got here
+    </h4>
+    <div
+      class="current-history"
+    >
+      <div
+        class="RoundHistory"
+      >
+        <ul>
+          <li
+            class="round-item"
+          >
+            <img
+              alt=""
+              src="remove.svg"
+            />
+             You crossed off option2
+          </li>
+          <li
+            class="round-item"
+          >
+            <img
+              alt=""
+              src="wrench.svg"
+            />
+             You threw a wrench by adding option1
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="RoundHistory"
+    >
+      <ul />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Full history available 1`] = `
+<DocumentFragment>
+  <div
+    class="History"
+  >
+    <h4
+      class="header"
+    >
+      How we got here
+    </h4>
+    <div
+      class="current-history"
+    >
+      <div
+        class="RoundHistory"
+      >
+        <ul>
+          <li
+            class="round-item"
+          >
+            <img
+              alt=""
+              src="remove.svg"
+            />
+             You crossed off option2
+          </li>
+          <li
+            class="round-item"
+          >
+            <img
+              alt=""
+              src="wrench.svg"
+            />
+             You threw a wrench by adding option1
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="RoundHistory"
+    >
+      <ul>
+        <li
+          class="round-item"
+        >
+          <img
+            alt=""
+            src="remove.svg"
+          />
+           Jon crossed off option5
+        </li>
+        <li
+          class="round-item"
+        >
+          <img
+            alt=""
+            src="wrench.svg"
+          />
+           You threw a wrench by adding option4
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`No history available 1`] = `
+<DocumentFragment>
+  <div
+    class="History"
+  />
+</DocumentFragment>
+`;
+
+exports[`Previous rounds history only 1`] = `
+<DocumentFragment>
+  <div
+    class="History"
+  >
+    <h4
+      class="header"
+    >
+      How we got here
+    </h4>
+    <div
+      class="current-history"
+    >
+      <div
+        class="RoundHistory"
+      >
+        <ul />
+      </div>
+    </div>
+    <div
+      class="RoundHistory"
+    >
+      <ul>
+        <li
+          class="round-item"
+        >
+          <img
+            alt=""
+            src="remove.svg"
+          />
+           Jon crossed off option5
+        </li>
+        <li
+          class="round-item"
+        >
+          <img
+            alt=""
+            src="wrench.svg"
+          />
+           You threw a wrench by adding option4
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,19 @@
+@import "mixins";
+
+.History {
+  .header {
+  }
+
+  .current-history {
+    opacity: 0.6;
+  }
+
+  .round-header {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    padding-left: 50px;
+    margin: 0;
+  }
+}

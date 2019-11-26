@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Another user's turn 1`] = `
+<DocumentFragment>
+  <div
+    class="DecisionOptions"
+  >
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="option-title"
+        >
+          option1
+        </span>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="option-title"
+        >
+          option2
+        </span>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Decision is finalized 1`] = `
+<DocumentFragment>
+  <div
+    class="DecisionOptions"
+  >
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="option-title"
+        >
+          option1
+        </span>
+      </li>
+      <li
+        class=""
+      >
+        <span
+          class="option-title"
+        >
+          option2
+        </span>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Disallowing remove on the last option 1`] = `
+<DocumentFragment>
+  <div
+    class="DecisionOptions"
+  >
+    <ul>
+      <li
+        class=""
+      >
+        <span
+          class="option-title"
+        >
+          option1
+        </span>
+        <button
+          class="ImageButton btn btn-primary"
+          disabled=""
+          title="You can't remove the last option!"
+          type="button"
+        >
+          <img
+            alt="remove"
+            src="remove.svg"
+          />
+        </button>
+      </li>
+    </ul>
+    <div
+      class="add-option input-group"
+    >
+      <input
+        aria-label="newOption"
+        class="form-control"
+        data-testid="add-option"
+        placeholder="Toss a wrench in the plan by adding a new option"
+        type="text"
+        value=""
+      />
+      <div
+        class="remove-button-container input-group-append"
+      >
+        <button
+          class="ImageButton btn btn-primary"
+          disabled=""
+          type="button"
+        >
+          <img
+            alt="add"
+            src="wrench.svg"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

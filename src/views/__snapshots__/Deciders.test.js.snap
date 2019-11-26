@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Another user is next 1`] = `
+<DocumentFragment>
+  <div
+    class="Deciders"
+  >
+    <div
+      class="deciders-list-container"
+    >
+      <ul>
+        <li>
+          <span
+            class="current-user"
+            title="Bob"
+          >
+            You
+          </span>
+        </li>
+        <li>
+          <img
+            alt="current turn"
+            class="turn-indicator"
+            src="arrow.svg"
+          />
+          <span
+            class="current-turn other-user"
+            title="Jon"
+          >
+            Jon
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="deciders-share"
+    >
+      <label
+        for="copy-decidel-url"
+      >
+        Share this link with your deciders
+      </label>
+      <div
+        class="mb-3 input-group"
+      >
+        <input
+          aria-label="Decidel URL"
+          class="form-control"
+          readonly=""
+          value="http://localhost/"
+        />
+        <div
+          class="input-group-append"
+        >
+          <button
+            class="btn btn-outline-primary"
+            id="copy-decidel-url"
+            type="button"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Current user is next 1`] = `
+<DocumentFragment>
+  <div
+    class="Deciders"
+  >
+    <div
+      class="deciders-list-container"
+    >
+      <ul>
+        <li>
+          <span
+            class="other-user"
+            title="Bob"
+          >
+            Bob
+          </span>
+        </li>
+        <li>
+          <img
+            alt="current turn"
+            class="turn-indicator"
+            src="arrow.svg"
+          />
+          <span
+            class="current-turn current-user"
+            title="Jon"
+          >
+            You
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="deciders-share"
+    >
+      <label
+        for="copy-decidel-url"
+      >
+        Share this link with your deciders
+      </label>
+      <div
+        class="mb-3 input-group"
+      >
+        <input
+          aria-label="Decidel URL"
+          class="form-control"
+          readonly=""
+          value="http://localhost/"
+        />
+        <div
+          class="input-group-append"
+        >
+          <button
+            class="btn btn-outline-primary"
+            id="copy-decidel-url"
+            type="button"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
