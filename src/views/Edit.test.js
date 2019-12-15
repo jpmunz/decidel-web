@@ -5,7 +5,6 @@ import { render } from "@testing-library/react";
 jest.mock("./History");
 jest.mock("./DecisionOptions");
 jest.mock("./CurrentRound");
-
 jest.mock("./Deciders");
 
 const fetchDecidelMock = jest.fn();

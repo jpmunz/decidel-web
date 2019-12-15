@@ -12,19 +12,6 @@ const api = new API();
 REDUCERS
  */
 
-const asyncRequest = function*(id, responseAction, apiMethod, ...apiArgs) {
-  try {
-    yield put(asyncRequestsSlice.actions.start({ id }));
-    const response = yield call([api, apiMethod], ...apiArgs);
-    yield put(responseAction({ response }));
-    yield put(asyncRequestsSlice.actions.success({ id, response }));
-  } catch (error) {
-    yield put(
-      asyncRequestsSlice.actions.error({ id, error: error.toString() })
-    );
-  }
-};
-
 const asyncRequestsSlice = createSlice({
   name: "asyncRequests",
   initialState: { items: {} },
@@ -202,6 +189,19 @@ export function getAsyncRequest(state, id) {
 /*
 ASYNC SAGAS
  */
+
+const asyncRequest = function*(id, responseAction, apiMethod, ...apiArgs) {
+  try {
+    yield put(asyncRequestsSlice.actions.start({ id }));
+    const response = yield call([api, apiMethod], ...apiArgs);
+    yield put(responseAction({ response }));
+    yield put(asyncRequestsSlice.actions.success({ id, response }));
+  } catch (error) {
+    yield put(
+      asyncRequestsSlice.actions.error({ id, error: error.toString() })
+    );
+  }
+};
 
 const fetchDecidel = function*(action) {
   const { id } = action.payload;

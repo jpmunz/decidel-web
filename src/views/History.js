@@ -8,12 +8,12 @@ import {
 import RoundHistory from "./RoundHistory";
 import "./History.scss";
 import { produce } from "immer";
+import autoBind from "react-autobind";
 
 export class History extends React.Component {
   constructor(props) {
     super(props);
-
-    this.prepareHistory = this.prepareHistory.bind(this);
+    autoBind(this);
   }
 
   prepareHistory(draft) {

@@ -31,8 +31,7 @@ const renderTest = options =>
   expect(renderComponent(options).asFragment()).toMatchSnapshot();
 
 test("Another user's turn", () => renderTest({ isCurrentTurn: false }));
-test("Decision is finalized", () =>
-  renderTest({ finalDecision: "Picked Option" }));
+test("Decision is finalized", () => renderTest({ finalDecision: "option1" }));
 test("Disallowing remove on the last option", () =>
   renderTest({ options: [{ title: "option1" }] }));
 

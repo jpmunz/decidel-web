@@ -116,7 +116,7 @@ export class DecisionOptions extends React.Component {
             value={this.state.newOption}
           />
 
-          <InputGroup.Append className="remove-button-container">
+          <InputGroup.Append>
             <ImageButton
               disabled={!this.state.newOption}
               onClick={this.handleAddOptionClick}

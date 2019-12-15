@@ -36,7 +36,7 @@ exports[`Decision is finalized 1`] = `
   >
     <ul>
       <li
-        class=""
+        class="final-decision"
       >
         <span
           class="option-title"
@@ -97,7 +97,7 @@ exports[`Disallowing remove on the last option 1`] = `
         value=""
       />
       <div
-        class="remove-button-container input-group-append"
+        class="input-group-append"
       >
         <button
           class="ImageButton btn btn-primary"

@@ -354,7 +354,13 @@ exports[`Create form submission error 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Create form submission success 1`] = `<DocumentFragment />`;
+exports[`Create form submission success 1`] = `
+<DocumentFragment>
+  <div>
+    Mocked Redirect
+  </div>
+</DocumentFragment>
+`;
 
 exports[`Create form submitting 1`] = `
 <DocumentFragment>

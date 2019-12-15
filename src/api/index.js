@@ -1,4 +1,4 @@
-const Cookies = require("js-cookie");
+import Cookies from "js-cookie";
 
 export default class API {
   _fetch(url, options) {

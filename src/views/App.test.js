@@ -23,15 +23,15 @@ const renderComponent = function(route) {
 };
 
 test("Default route", () => {
-  expect(renderComponent("/")).toMatchSnapshot();
+  expect(renderComponent("/").asFragment()).toMatchSnapshot();
 });
 
 test("Create route", () => {
-  expect(renderComponent("/create")).toMatchSnapshot();
+  expect(renderComponent("/create").asFragment()).toMatchSnapshot();
   expect(MockCreate.mock.calls).toEqual([[{ requestId: "v4id" }, {}]]);
 });
 
 test("Edit route", () => {
-  expect(renderComponent("/view/23")).toMatchSnapshot();
+  expect(renderComponent("/view/23").asFragment()).toMatchSnapshot();
   expect(MockEdit.mock.calls).toEqual([[{ id: "23" }, {}]]);
 });
