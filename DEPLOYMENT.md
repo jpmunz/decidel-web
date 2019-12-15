@@ -1,9 +1,9 @@
+Create and deploy a production build:
 
 ```
 npm run build
 rsync -a build/ <server>:/var/www/<hostname>/html
 ```
-
 
 Make sure the server is setup to serve the page as in this sample Nginx config:
 
@@ -21,3 +21,4 @@ server {                                                                        
 
     ...
 }
+```
