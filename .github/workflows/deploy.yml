@@ -24,12 +24,15 @@ jobs:
         CI: true
         name: CI
     - name: Deploy the build
-      uses: contention/rsync-deployments@v1.0.0
+      id: deploy
+      uses: Pendect/action-rsyncer@v1.1.0
       env:
-        DEPLOY_KEY: ${{ secrets.DECIDEL_SERVER_SSH_KEY }}
-        ARGS: "-a"
-        SERVER_PORT: ${{ secrets.DECIDEL_SERVER_PORT }}
-        FOLDER: "build/"
-        SERVER_IP: ${{ secrets.DECIDEL_SERVER_IP }}
-        USERNAME: ${{ secrets.DECIDEL_SERVER_USERNAME }}
-        SERVER_DESTINATION: ${{ secrets.DECIDEL_SERVER_WEB_DESTINATION }}
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-a'
+        options: ''
+        ssh_options: ''
+        src: 'build/'
+        dest: ${{ secrets.DEPLOY_DESTINATION }}
+    - name: Display status from deploy
+      run: echo "${{ steps.deploy.outputs.status }}"
