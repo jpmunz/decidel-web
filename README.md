@@ -7,4 +7,4 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment instructions.
 
 View the [Roadmap on Trello](https://trello.com/b/z4REn8Mg/decidel-roadmap).
 
-![](https://github.com/jpmunz/decidel-web/workflows/CI/badge.svg)
+![](https://github.com/jpmunz/decidel-web/workflows/Build%20and%20Deploy/badge.svg)
