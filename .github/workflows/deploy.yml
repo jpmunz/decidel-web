@@ -24,12 +24,12 @@ jobs:
         CI: true
         name: CI
     - name: Deploy the build
-      uses: AEnterprise/rsync-deploy@v1.0
+      uses: contention/rsync-deployments@v1.0.0
       env:
         DEPLOY_KEY: ${{ secrets.DECIDEL_SERVER_SSH_KEY }}
         ARGS: "-a"
         SERVER_PORT: ${{ secrets.DECIDEL_SERVER_PORT }}
-        FOLDER: "build"
+        FOLDER: "build/"
         SERVER_IP: ${{ secrets.DECIDEL_SERVER_IP }}
         USERNAME: ${{ secrets.DECIDEL_SERVER_USERNAME }}
         SERVER_DESTINATION: ${{ secrets.DECIDEL_SERVER_WEB_DESTINATION }}
