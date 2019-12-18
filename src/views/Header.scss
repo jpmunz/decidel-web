@@ -8,15 +8,14 @@
   margin-bottom: 60px;
 
   .created-by {
-    float: right;
     color: $accent;
-    margin-right: 10px;
-    margin-top: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
 
   .logo {
     height: 40px;
     margin-top: 5px;
-    width: 200px;
   }
 }
