@@ -11,7 +11,11 @@ import App from "src/views/App";
 const sagaMiddleware = createSagaMiddleware();
 const middleware = [...getDefaultMiddleware(), sagaMiddleware];
 
-if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV === "production") {
+  console.log(
+    "Hello! If you're interested in viewing the source code it's available at: https://github.com/jpmunz/decidel-web"
+  );
+} else {
   const reduxLogger = require("redux-logger");
   middleware.push(reduxLogger.logger);
 }
