@@ -1,6 +1,5 @@
-![](https://github.com/jpmunz/decidel-web/workflows/Build%20and%20Deploy/badge.svg)
-<a href="#badge">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
+![deploy status](https://github.com/jpmunz/decidel-web/workflows/Build%20and%20Deploy/badge.svg)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=plastic")
     
 Hosted at https://decidel.ca.
 
