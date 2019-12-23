@@ -12,17 +12,13 @@ export default class API {
         },
         options
       )
-    )
-      .then(response => {
-        if (!response.ok) {
-          throw Error(response.statusText);
-        }
+    ).then(response => {
+      if (!response.ok) {
+        throw Error(response.statusText);
+      }
 
-        return response.json();
-      })
-      .then(json => {
-        return json;
-      });
+      return response.json();
+    });
   }
 
   fetchDecidel(id) {
