@@ -8,7 +8,7 @@ class Header extends React.Component {
     return (
       <div className="Header">
         <a className="created-by" href="https://portfolio.jpmunz.com">
-          Created By Jonathan Munz
+          By Jonathan Munz
         </a>
         <Link to="/">
           <img className="logo" src={logo} alt="" />

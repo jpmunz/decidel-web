@@ -34,22 +34,22 @@
   }
 
   .how-it-works-step:nth-child(1) img {
-    width: 500px;
+    width: 50%;
   }
 
   .how-it-works-step:nth-child(2) img {
-    width: 700px;
+    width: 60%;
   }
 
   .how-it-works-step:nth-child(3) img {
-    width: 600px;
+    width: 55%;
   }
 
   .cartoon-section {
     margin: 40px 0;
 
     .cartoon {
-      width: 900px;
+      width: 100%;
       @include box-shadow(0, 1px, 3px, rgba(0, 0, 0, 0.2));
       @include rounded();
     }

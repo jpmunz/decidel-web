@@ -2,6 +2,7 @@
 @import "variables";
 
 .DecisionOptions {
+  margin-bottom: 1em;
   @include rounded();
   @include box-shadow(10px, 10px, 20px, rgba(0, 0, 0, 0.2));
 
@@ -13,6 +14,10 @@
       margin: 10px 5px;
       border: 1px solid #ddd;
       @include rounded();
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       &.final-decision {
         border: 3px solid $black;

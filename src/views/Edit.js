@@ -72,15 +72,19 @@ export class Edit extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col className={"col-8"}>
-              <CurrentRound id={this.props.id} />
-            </Col>
-          </Row>
-          <Row>
-            <Col className={"col-8"}>
-              <DecisionOptions id={this.props.id} />
-            </Col>
             <Col>
+              <Row>
+                <Col>
+                  <CurrentRound id={this.props.id} />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <DecisionOptions id={this.props.id} />
+                </Col>
+              </Row>
+            </Col>
+            <Col className="col-sm">
               <Deciders id={this.props.id} />
             </Col>
           </Row>

@@ -1,9 +1,7 @@
 @import "mixins";
 
 .Create {
-  width: 60%;
-  margin: 50px auto;
-  padding: 10px;
+  margin-bottom: 2em;
   @include rounded();
   @include box-shadow(10px, 10px, 20px, rgba(0, 0, 0, 0.2));
 
@@ -33,5 +31,7 @@
 
   .create-button {
     @include box-shadow(5px, 5px, 10px, rgba(0, 0, 0, 0.2));
+    margin-right: 0.3em;
+    margin-bottom: 0.3em;
   }
 }

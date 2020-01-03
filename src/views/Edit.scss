@@ -2,12 +2,12 @@
 
 .Edit {
   h1 {
-    padding-bottom: 20px;
+    padding-bottom: 0.5em;
     text-align: center;
   }
 
   .History {
-    padding-top: 30px;
+    padding-top: 0.5em;
   }
 
   .spinner {
@@ -23,8 +23,6 @@
     }
 
     .final-decision-title {
-      position: relative;
-      top: -20px;
       font-weight: bold;
       font-size: 3.5em;
     }

@@ -11,23 +11,25 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route
-            path="/create"
-            render={() => {
-              return <Create requestId={v4()} />;
-            }}
-          />
-          <Route
-            path="/view/:id"
-            render={props => {
-              return <Edit id={props.match.params.id} />;
-            }}
-          />
-        </Switch>
+        <div className="container justify-content-center">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route
+              path="/create"
+              render={() => {
+                return <Create requestId={v4()} />;
+              }}
+            />
+            <Route
+              path="/view/:id"
+              render={props => {
+                return <Edit id={props.match.params.id} />;
+              }}
+            />
+          </Switch>
+        </div>
       </div>
     );
   }
