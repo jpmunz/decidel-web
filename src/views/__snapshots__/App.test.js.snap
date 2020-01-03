@@ -12,7 +12,7 @@ exports[`Create route 1`] = `
         class="created-by"
         href="https://portfolio.jpmunz.com"
       >
-        Created By Jonathan Munz
+        By Jonathan Munz
       </a>
       <a
         href="/"
@@ -24,8 +24,12 @@ exports[`Create route 1`] = `
         />
       </a>
     </div>
-    <div>
-      Mocked Create
+    <div
+      class="container justify-content-center"
+    >
+      <div>
+        Mocked Create
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -43,7 +47,7 @@ exports[`Default route 1`] = `
         class="created-by"
         href="https://portfolio.jpmunz.com"
       >
-        Created By Jonathan Munz
+        By Jonathan Munz
       </a>
       <a
         href="/"
@@ -55,8 +59,12 @@ exports[`Default route 1`] = `
         />
       </a>
     </div>
-    <div>
-      Mocked Home
+    <div
+      class="container justify-content-center"
+    >
+      <div>
+        Mocked Home
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -74,7 +82,7 @@ exports[`Edit route 1`] = `
         class="created-by"
         href="https://portfolio.jpmunz.com"
       >
-        Created By Jonathan Munz
+        By Jonathan Munz
       </a>
       <a
         href="/"
@@ -86,8 +94,12 @@ exports[`Edit route 1`] = `
         />
       </a>
     </div>
-    <div>
-      Mocked Edit
+    <div
+      class="container justify-content-center"
+    >
+      <div>
+        Mocked Edit
+      </div>
     </div>
   </div>
 </DocumentFragment>
